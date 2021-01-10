@@ -1,14 +1,32 @@
-try {
-    let options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-    };
-    document.getElementById(
-        "currentdate"
-    ).textContent = new Date().toLocaleDateString("en-US", options);
+let daynames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
+let months = [
+    "January",
+    "Febuary",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
 
-} catch (e) {
-    alert("Error with code or your browser does not support Locale");
-}
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = [d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
+
+document.getElementById("currentdate").textContent = fulldate;
+
