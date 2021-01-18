@@ -1,0 +1,70 @@
+
+#stuff{
+    
+    max-width: 980px;
+    margin:0 auto;
+
+}
+#principle{
+    padding: 15px;
+      
+}
+
+p{
+    background-color:#008080;
+    padding: 15px;
+    margin: auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+     
+}
+body {
+    
+    background-color: #e3e3e3;
+    font-family: "Montserrat", sans-serif;
+    
+}
+header, footer{
+    border-radius:10px;
+    background-color: #008080;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0 0 40px 0 #008080;
+}
+section {
+    margin: 1.5rem auto;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0 0 40px 0 #008080;
+    border-color:#008080;
+}
+
+h1{ 
+    font-size: 5rem;
+    text-align:center;
+}   
+
+h4{
+    height:3rem;
+    text-align:center;
+}
+
+
+h2{ font-size: 1.5rem;
+    text-align:center;
+   
+}
+h3{
+    height: 3rem;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    margin-top: 1px;
+    
+   }
+    
+
