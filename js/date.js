@@ -1,3 +1,2 @@
-const options = { year:"numeric"};
-document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-us", options);
-
+document.getElementById("currentyear").innerHTML = new Date().getFullYear();
+document.getElementById("lastmodified").innerHTML = "Last modified: " + document.lastModified;
