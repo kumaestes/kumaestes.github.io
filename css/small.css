@@ -37,8 +37,8 @@ h2 {
 a{
     font-weight: bold;
     font-size:18px;
-    color: black;
+    color: #ec1346;
 }
 a:hover{
-    color:#ec1346;
+    color:black;
 }
