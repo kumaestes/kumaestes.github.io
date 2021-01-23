@@ -37,7 +37,11 @@ h2 {
 a{
     font-weight: bold;
     font-size:18px;
-    color: #ef767a;
+    color: #fe4a49;
+
+}
+footer a{
+    color:white;
 }
 a:hover{
     color:black;
