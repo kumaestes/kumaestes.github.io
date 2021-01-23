@@ -69,12 +69,6 @@ h1{
     color: white;
 }   
 
-h4{
-    height:3rem;
-    text-align:left;
-    
-}
-
 
 h2{ font-size: 1.5rem;
     text-align: left;
@@ -86,9 +80,51 @@ h3{
     color: black;
     text-align: left;
     padding: 2px;
-    margin-top: 20px;
-
-    
+    margin-top: 20px; 
    }
+
+   h4{
+    height:3rem;
+    text-align:left;
+    color:white;
+    
+}
+    
+.primary, .secondary, .accent1, .accent2 {
+    padding:15px;
+    border-radius:10px;
     
 
+}
+.primary,.Header, .Footer {
+    background-color: #008080;
+    padding:15px;
+    border-radius:10px;
+    border: 2px solid black;
+}
+.secondary, .Main{
+    background-color:#E3E3E3;
+   border: 2px solid black;
+   padding:15px;
+    border-radius:10px;
+
+    
+}
+.accent1,.H1, .H2, .H3, .H4, .Hover{
+    background-color:#ffffff;
+    padding:15px;
+    border-radius:10px;
+    border: 2px solid black;
+}
+.accent2{
+    background-color:#000000;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+.colors{
+    width:100%;
+    text-align: center;
+    
+}
