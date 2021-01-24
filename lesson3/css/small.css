@@ -100,7 +100,8 @@ h3{
     color:white;
     
 }
-    
+
+ 
 .primary, .secondary, .accent1, .accent2 {
     padding:15px;
     border-radius:10px;
@@ -122,13 +123,13 @@ h3{
 
     
 }
-.accent1,.H1, .H2, .H3, .H4, .Hover{
+.accent1,.H1, .H4, .Hover{
     background-color:#ffffff;
     padding:15px;
     border-radius:10px;
     border: 2px solid black;
 }
-.accent2{
+.accent2,.H2, .H3{
     background-color:#000000;
     color:white;
     padding:15px;
