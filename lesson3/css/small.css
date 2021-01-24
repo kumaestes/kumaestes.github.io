@@ -109,6 +109,7 @@ h3{
 }
 .primary,.Header, .Footer {
     background-color: #008080;
+    color:white;
     padding:15px;
     border-radius:10px;
     border: 2px solid black;
