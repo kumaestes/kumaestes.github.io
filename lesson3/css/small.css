@@ -60,9 +60,20 @@ header, footer{
     box-shadow: 0 0 40px 0 #008080;
     color: white;
     max-width: 100%;
+    font-family: "Roboto", sans-serif;
 }
-
-
+.HF, .body{
+    border: 2px solid black;
+    padding:15px;
+     border-radius:10px;
+     background-color:white;
+}
+.HF{
+    font-family: "Roboto", sans-serif;
+}
+.body{
+    font-family: "Montserrat", sans-serif;
+}
 h1{ 
     font-size: 5rem;
     text-align:center;
