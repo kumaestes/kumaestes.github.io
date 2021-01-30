@@ -11,5 +11,11 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
+    }
+    main{
+        max-width: 30rem;
+    }
+    footer{
+        max-width: 40rem;
+    }
 }
