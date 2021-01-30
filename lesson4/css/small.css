@@ -48,7 +48,7 @@ nav{
 }
 .navigation a:hover{
 color: white;
-background-color: teal;
+background-color: #008080;
 }
 .responsive li {
     display: block;
