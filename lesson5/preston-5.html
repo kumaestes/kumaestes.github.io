@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 101 Preston Page</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href= "css/normalize.css"/>
+    <link href= "css/small.css" rel= "stylesheet"/>
+    <link href= "css/medium.css" rel= "stylesheet"/>
+    <link href= "css/large.css" rel= "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/weather.png" alt= "weather101 logo">
+        </picture>
+        <section class="headings">
+        <h1>Weather 101</h1>
+        <div class= "motto">We Know Weather</div>
+    </section>
+    </header>
+    <script src="js/ham.js"></script>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="preston-5.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <h2> Preston Idaho</h2>
+        <div class="hero-summary">
+                <img class= "sunset" src="images/sunset.jpeg" alt="sunset pic">
+                <section class="summary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: Overcast</p>
+                    <p>Temp: 39 F</p>
+                    <p>Wind Chill: 34 F</p>
+                    <p>Humidity: 57 %</p>
+                    <p>Wind Speed: 7 mph</p>
+                </section>
+            </div>
+                <div class= "forcast">
+                    <h3>5-day forecast</h3>
+                    <table class="forcast-table">
+                        <tr>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                        </tr>
+                        <tr>
+                        <td>
+                            <img src="images/suncloud.png" alt="#"width = "100">
+                        </td><td>
+                            <img src="images/suncloud.png" alt="#" width="100">
+                        </td><td>
+                            <img src="images/sunsnow.png" alt="#" width="100">
+                        </td><td>
+                            <img src="images/snow.png" alt="#" width="100">
+                        </td><td>
+                            <img src="images/snow.png" alt="#" width="100">
+                        </td>
+                       </tr>
+                       <tr>
+                           <td>42 F</td>
+                           <td>37 F</td>
+                           <td>32 F</td>
+                           <td>25 F</td>
+                           <td>28 F</td>
+                       </tr>
+                    </table>
+                </div>
+                <div class= "article">
+                <h4>Native Idaho Trout are plentiful in Southeast Idaho!<h4>
+                    <img class="trout" src="images/fish-4113608_640.jpg" alt= "trout">
+                    <p>Southeast Idaho is a paradise for fishing.  If you stay on the Interstate highways you'll see very
+                         little of the abundance of waters which make the area a Mecca for dedicated fishermen winter and summer.</p>
+                    
+                    <p>Thirty one fishable reservoirs and many streams, creeks, and rivers are located in the 110 mile length 
+                        and 105 mile breadth of this travel region. Species include Rainbow Trout, Cutthroat Trout, Brown Trout, 
+                        Brook Trout, Lake Trout, Bull Trout, Chinook, Salmon, Kokanee Salmon, Coho Salmon, Steelhead, White Sturgeon,
+                         Mountain Whitefish, Smallmouth Bass, Largemouth Bass, Crappie, Bluegill, Yellow Perch, Channel Catfish, Bullhead Catfish, 
+                         and Pumpkinseed.</p>
+                    
+                    
+                    
+                    <p>Seasons and catch limits vary widely in the region and licenses are required.  Short term and season non resident fishing
+                         and hunting licenses and official information publications are available at sporting goods shops in each community.</p>
+                    
+                    <p>The Idaho Fish & Game Fishing Trailer travels all over southeast Idaho each summer!  It is equipped with fishing gear for 
+                    use by the public for free, they provide fishing instruction to those that need it, and if you register 
+                    at the trailer— no fishing license is necessary! (https://idahohighcountry.org/)</p>
+                    </div>
+                <div class= "contact">
+                    <h4>Contact Info</h4>
+                    
+            
+                    
+                    <img class= "map" src="images/preston map.png" alt="prestonmap" width=60%> 
+                    <p>Weather 101</p>
+                    <p>100 N State St.</p>
+                    <p>Preston, ID 83263</p>
+                    <br>
+                    <p>999-999-9999</p>
+                    <p>info@weather101.com</p>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="blank"><img src="images/facebook.png" alt="Facebook icon" width="40"></a>
+                        <a href="https://www.youtube.com/" target="blank"><img src="images/youtube.png" alt="Youtube icon" width="40"></a>
+                        <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.jpg" alt="Instagram icon" width="40"></a>
+        </div>
+    </main>
+    <footer>
+       <div class="date">
+        &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | 
+         <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning</a>| 
+       
+        <div><span id="currentDate"></span></div>
+       
+    </footer>
+   </div>
+    <script src="js/date.js"></script>
+</body>
+</html>
