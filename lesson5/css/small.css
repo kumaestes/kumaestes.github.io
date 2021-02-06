@@ -59,7 +59,7 @@ h2{
 h3{
     text-align: center;
 }
-h4{
+h4, h5, h6{
     text-align: center;
     font-size: 35px;
 }
