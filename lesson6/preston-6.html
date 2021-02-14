@@ -40,10 +40,17 @@
         
         <h2> Preston Idaho</h2>
         <div class="hero-summary">
-                <img class= "sunset" src="images/wdd230_image_franklinOriginal.jpeg" alt="sunset pic" sizes="100vw" >
-                                    <source srcset="images/preston500m.png" media="(max-width:500px)">
-                                    <source srcset="images/preston800l.png" media="(max-width:800px)">
-                                    <source srcset="images/preston100l.png" media="(max-width:1100px)">
+            <picture class= "sun">
+                <source media="(max-width:500px)" srcset="images/smallsun.jpg">
+                <source media="(max-width:800px)" srcset="images/mediumsun.jpg">
+                <source media="(min-width:801px)" srcset="images/large.jpg">
+                <img class="sun"
+                    src="images/large.jpg"
+                    alt="sun"/>
+            </picture>
+            
+            
+            
                 <section class="summary">
                     <h3>Weather Summary</h3>
                     <p>Currently: Overcast</p>
