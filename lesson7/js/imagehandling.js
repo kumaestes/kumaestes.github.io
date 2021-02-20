@@ -1,7 +1,7 @@
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const loadImages = (image) => {
-    image.setAttribute("src", image.getAttribute("date-src"));
+    image.setAttribute("src", image.getAttribute("data-src"));
     image.onload = () => {
         image.removeAttribute("data-src");
     };
@@ -21,7 +21,7 @@ if ("IntersectionObserver" in window) {
                 imgObserver.unobserve(item.target);
             }
         });
-    }, imageOptions);
+    }, imgOptions);
 
     imagesToLoad.forEach((img) => {
         imgObserver.observe(img);
@@ -29,7 +29,7 @@ if ("IntersectionObserver" in window) {
 
 }
 else{
-    imagesToLoad.forEach ((img)=> {
+    imagesToLoad.forEach((img) => {
         loadImages(img);
-});
+    });
 }
