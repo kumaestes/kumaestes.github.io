@@ -10,4 +10,10 @@
     table{
         display: table;
     }
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pic:hover{
+        box-shadow: 5px 10px 18px teal;
+    }
 }

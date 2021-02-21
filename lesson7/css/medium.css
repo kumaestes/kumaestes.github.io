@@ -33,5 +33,10 @@
     .forcast {
         display: block;
         
+    
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    
     }
 }
