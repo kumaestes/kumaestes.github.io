@@ -1,0 +1,250 @@
+header, footer{
+    background-color: teal;
+    color:#FFFFFF;
+    padding: 5px 0; 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: "Roboto", sans-serif;
+  
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    
+}
+.headings{
+    display: flex;
+    flex-direction:column;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}    
+nav{
+    margin:0 auto;
+    width: 100%;
+    background-color: #ffffff; 
+    
+      
+}
+.navigation{
+    list-style: none;
+    padding:0;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation a{
+    display:block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+}
+.navigation a:hover{
+color: white;
+background-color: #008080;
+}
+.responsive li {
+    display: block;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4, h5, h6{
+    text-align: center;
+    font-size: 35px;
+}
+.cbox{
+    border: 1px dotted black;
+    padding: 20px;
+    background-color: #e3e3e3;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: teal;
+    
+}
+header, nav, main, footer {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+
+}
+#byuilink{
+    color: white;
+}
+footer{
+    text-align:center;
+}
+.hero-image{
+    position: relative;
+    width:100%;
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    
+}
+.sunset{
+    position: relative;
+    width: 100%;
+}
+.hero-summary{
+    
+    position:relative;
+    
+}
+
+table{
+    display: none;
+}
+.forcast td, .forcast th{
+border: 2px solid teal;
+padding: 8px;
+background-color:white;
+text-align: center;
+color: black;
+}
+.forcast-table{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.article {
+    border: 2px solid teal;
+    padding: 1.5rem;
+    background-color: #e3e3e3;
+    
+}
+
+.trout{
+    width: 40%;
+    border-radius: 25px;
+    float: right;
+    padding: 5px;
+
+}
+.map{
+    float: left;
+    padding-right:15px;
+}
+.active{
+    background-color: #e3e3e3;
+    color: black;
+
+    
+}
+.social{
+    text-align: right;
+    
+}
+.contact{
+    border: 2px solid teal;
+    padding: 1.5rem;
+    margin-top: 10px;
+    background-color: #e3e3e3;
+    
+}
+.sun{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.gallery {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.gallery figure{
+    display: grid;
+    text-align:center;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px;
+    text-align: center;
+    Justify-items: center;
+    color: black;
+    
+    
+}
+.gallery img{
+    width: 100%;
+    
+}
+
+
+figcaption{
+    padding: 9px;
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid teal;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: Teal;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1em;
+    color: #9c2c13;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    -webkit-apperance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+border: none;
+background-color: teal;
+color: white;
+border-radius: 1rem;
+padding: .75rem 1.5rem;
+margin: 0 0 2rem 2%;
+width: 96%;
+max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+
+}
+textarea {
+    height: 5rem;
+    padding-top: 1rem;
+}
