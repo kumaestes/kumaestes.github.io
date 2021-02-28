@@ -38,7 +38,7 @@
     </nav>
     <main>
         <h1>Storm Tracker</h1>
-        <form method ="get" action= "thanks.html">
+        <form method ="get" action= "thankyou.html">
         <fieldset>
             <legend> Witness Information </legend>
                 <label class="top">Full Name* <input type ="text" name="fname" required></label>
@@ -65,18 +65,20 @@
                     <option value= "Tornado"></option>
                 </datalist>
             </label>
-            <label class= "top"> Storm Severity <input 
+            <label class= "top"> 
+                Storm Severity: <span id="ratingvalue">5</span> 
+                <input 
                 type="range"
                 id="rating" 
                 value="5"
-                min="0" 
+                min="1" 
                 max="10" 
                 step="1" 
                 list="tickmarks"
                name="severity" 
                oninput="adjustRating(this.value)" 
-               onchange="adjustRating(this.value)"/>
-               <span id="rating value">5</span>
+               onchange="adjustRating(this.value)">
+               
             </label>
                 <datalist id="tickmarks">
                     <option value="0"></option>
@@ -98,9 +100,9 @@
             <fieldset>
             <legend>User in Danger level</legend>
             <div>User in Danger?</div>
-            <label class="sbs"><input type="radio" name="audience" value="Yes">Yes</label>
-            <label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</label>
-            <label class="sbs"><input type="radio" name="audience" value="No">No</label>
+            <label class="sbs"><input type="radio" name="audience" value="Yes"> Yes</label>
+            <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
+            <label class="sbs"><input type="radio" name="audience" value="No"> No</label>
 
             <div>Additional Information/Comments</div>
             <label for="comments" class="top" > </label>
@@ -112,7 +114,7 @@
 
         </fieldset>
 
-        <input type= "submit"value="Track My Storm" class="submitBtn">
+        <input type= "submit" value="Track My Storm" class="submitBtn" >
 
         </form>
 
@@ -122,6 +124,7 @@
 
     </main>
     <script src="js/imagehandling.js"></script>
+    <script src="js/rating.js"></script>
     <footer>
        <div class="date">
         &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | 
