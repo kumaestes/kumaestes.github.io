@@ -41,18 +41,27 @@
     <main>
         
             <picture>
-                <img src="image/settingsun.jpg" alt= "sunset">
+              <source media="(max-width:529px)" srcset="image/settingsun.jpg" />
+              <source media="(max-width:767px)" srcset="image/settingsun.jpg" />
+              <source media="(min-width:801px)" srcset="image/settingsun.jpg" />
+              <img src="image/settingsun.jpg" alt="sunset" />
             </picture>
+          </div>
+          <div class="cards"></div>
+         
+        </main>
+  
+           
             
             
         
-            <div class="cards"></div>
+        
         
             
            
         
 
-    </main>
+    
     <script src="js/imagehandling.js"></script>
     <script src="js/rating.js"></script>
     <script src="js/home.js"></script>
