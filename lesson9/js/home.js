@@ -5,39 +5,34 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
+    console.table(jsonObject);  
     const towns = jsonObject["towns"];
-
-    const cards =  document.querySelector("div.cards");
-    const filter = ["Preston", "Soda Springs", "Fish Haven"];
-    const datafilter = towns.filter(x => filter.includes(x.name));
     
-    datafilter.forEach(town => {
+    for (let i = 0; i < towns.length; i++ ) {
+        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs"){
         let card = document.createElement("section");
-        let info = document.createElement("div");
         let h2 = document.createElement("h2");
-        let p = document.createElement("p"); 
+        let p = document.createElement("p");
         let p1 = document.createElement("p");
         let p2 = document.createElement("p");
         let p3 = document.createElement("p");
-        let imagediv = document.createElement("div");
         let image = document.createElement("img");
 
-        h2.innerHTML = town.name;
-        p.innerHTML = town.motto;
-        p1.innerHTML = "Year Founded: " + town.yearFounded;
-        p2.innerHTML = "Population: " + town.currentPopulation;
-        p3.innerHTML = "Annual Rain Fall: " + town.averageRainfall;
-        image.setAttribute("src", "image/" + town.photo);
-        image.setAttribute('alt', "town pic");
-        
-        info.append(h2);
-        info.append(p);
-        info.append(p1);
-        info.append(p2);
-        info.append(p3);
-        imagediv.append(image);
-        card.append(imagediv);
-        card.append(info);
-        cards.append(card);
-    });  
+        h2.textContent = towns[i].name;
+        p.textContent = towns[i].motto;
+        p1.textContent = "Year Founded: " + towns[i].yearFounded;
+        p2.textContent = "Population: " + towns[i].currentPopulation;
+        p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
+        image.setAttribute("src", "image/" + towns[i].photo);
+        image.setAttribute("alt", towns[i].name + "photo");
+
+        card.append(h2);
+        card.append(p);
+        card.append(p1);
+        card.append(p2);
+        card.append(p3);
+        card.append(image);
+
+        document.querySelector("div.cards").append(card);  
+    }}
   });
