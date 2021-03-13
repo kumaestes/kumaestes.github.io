@@ -1,0 +1,14 @@
+@media only screen and (min-width: 64em) {
+    
+    main{
+        max-width: 64rem;
+        
+    }
+    footer{
+        max-width:64rem;
+    }
+    table{
+        display: table;
+    }
+   
+}
