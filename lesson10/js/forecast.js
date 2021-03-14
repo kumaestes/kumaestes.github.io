@@ -26,3 +26,31 @@ fetch(apiURL)
     }
     document.getElementById("wcf").innerHTML = wcf.toFixed(1);
   });
+
+  const forecastapiURL =
+  'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=7f54ed70011a0dd3f0cb5ff5e3b28102';
+fetch(forecastapiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    
+    function dayofWeek(dt) {
+      let days = ["Sun","Mon","Tue","Wed","Thur","Fri","Sat"]; 
+      const timestamp = dt * 1000;
+      let d = new Date(timestamp);
+      return days[ d.getDay() ]; 
+  }
+    
+
+    const filter = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
+
+    let i = 1;
+    filter.forEach(day => {
+        document.getElementById("day" + i).textContent = dayofWeek(day.dt);
+        let imagesrc = "https://openweathermap.org/img/wn/" + day.weather[0].icon + "@2x.png";
+        document.getElementById("icon" + i).setAttribute("src", imagesrc);
+        document.getElementById("icon" + i).setAttribute("alt", day.weather[0].description);
+        document.getElementById("temp" + i).textContent = Math.round(day.main.temp) + " F";
+        i++;
+    });
+   
+  });
