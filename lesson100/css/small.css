@@ -112,14 +112,14 @@ p{
 table{
     display: none;
 }
-.forcast td, .forcast th{
+.forecast td, .forcast th{
 border: 2px solid teal;
 padding: 8px;
 background-color:white;
 text-align: center;
 color: black;
 }
-.forcast-table{
+.forecast-table{
     width: 100%;
     padding-bottom: 50px;
 }
