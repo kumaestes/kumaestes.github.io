@@ -1,5 +1,5 @@
 header, footer{
-    background-color: teal;
+    background-color:teal;
     color:#FFFFFF;
     padding: 5px 0; 
     display: flex;
@@ -7,6 +7,18 @@ header, footer{
     justify-content:center;
     font-family: "Roboto", sans-serif;
   
+}
+header h1 {
+    color:white;
+    background-color: teal;
+
+
+}
+.motto {
+color: white;
+}
+header section{
+    background-color: teal;
 }
 
 header img {
@@ -63,14 +75,14 @@ h4, h5, h6{
     text-align: center;
     font-size: 35px;
 }
-.cbox{
+/*.cbox{
     border: 1px dotted black;
     padding: 20px;
     background-color: #e3e3e3;
     width: 100%;
     text-align: left;
     color: black;
-}
+}*/
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -200,17 +212,19 @@ color: black;
     display: grid;
     grid-template-columns: 1fr;
     
+    
 }
 section {
-    background-color: teal;
+    background-color:white;
     padding:10px;
-    color: white;
+    color: teal;
     margin: 4px;
+    border: 5px solid teal;
     
     
 }
 section p {
     font-size: 16px;
-    color: white;
+    color: black;
     
 }

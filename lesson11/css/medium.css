@@ -26,6 +26,8 @@
         padding: 10px;
         background-color: white;
         opacity: .8;
+        color: teal;
+        
     }
     table{
         display: table;

@@ -20,6 +20,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
+        
     }
     section p {
         text-align: center;
@@ -27,5 +28,6 @@
     .image{
         box-shadow: 5px 5px red;
     }
+    
    
 }
