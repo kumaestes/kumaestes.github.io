@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 101 Preston Page</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href= "css/normalize.css"/>
+    <link href= "css/small.css" rel= "stylesheet"/>
+    <link href= "css/medium.css" rel= "stylesheet"/>
+    <link href= "css/large.css" rel= "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="image/weather.png" alt= "weather101 logo">
+        </picture>
+        <section class="headings">
+        <h1>Weather 101</h1>
+        <div class= "motto">We Know Weather</div>
+    </section>
+    </header>
+    <script src="js/ham.js"></script>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html"class="active">Home</a></li>
+            <li><a href="preston-100.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+        
+    <main>
+        
+            <picture>
+              <source media="(max-width:529px)" srcset="image/settingsun.jpg" />
+              <source media="(max-width:767px)" srcset="image/settingsun.jpg" />
+              <source media="(min-width:801px)" srcset="image/settingsun.jpg" />
+              <img src="image/settingsun.jpg" alt="sunset" />
+            </picture>
+          </div>
+          <div class="cards"></div>
+         
+        </main>
+  
+           
+            
+            
+        
+        
+        
+            
+           
+        
+
+    
+    <script src="js/imagehandling.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="js/home.js"></script>
+    <footer>
+       <div class="date">
+        &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | 
+         <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning</a>| 
+       
+        <div><span id="currentDate"></span></div>
+       
+    
+   </div>
+</footer>
+    <script src="js/date.js"></script>
+    
+</body>
+</html>
