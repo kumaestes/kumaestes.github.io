@@ -163,6 +163,29 @@ color: black;
     width: 100%;
     height: auto;
 }
+.gallery {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.gallery figure{
+    display: grid;
+    text-align:center;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px;
+    text-align: center;
+    Justify-items: center;
+    color: black;
+    
+    
+}
+.gallery img{
+    width: 100%;
+    
+}
 .cards {
     display: grid;
     grid-template-columns: 1fr;
