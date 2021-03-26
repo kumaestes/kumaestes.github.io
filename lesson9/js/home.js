@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  
-    const towns = jsonObject["town"];
+    const towns = jsonObject["towns"];
     
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs"){
@@ -23,7 +23,7 @@ fetch(requestURL)
         p1.textContent = "Year Founded: " + towns[i].yearFounded;
         p2.textContent = "Population: " + towns[i].currentPopulation;
         p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-        image.setAttribute("src", "image/" + towns[i].photo);
+        image.setAttribute("src", "images/" + towns[i].photo);
         image.setAttribute("alt", towns[i].name + "photo");
 
         card.append(h2);
