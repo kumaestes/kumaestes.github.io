@@ -36,6 +36,7 @@ nav a:hover{
 
 
 
+
 img{
     width:25%;
 }
@@ -53,7 +54,7 @@ body {
     
     background-color: #ffffff;
     font-family: "Montserrat", sans-serif;
-    
+    font-weight: bold;
 }
 header, footer{
     
@@ -64,7 +65,7 @@ header, footer{
     box-shadow: 0 0 40px 0 white;
     color: white;
     max-width: 100%;
-    font-family: "Roboto", sans-serif;
+    font-family: "New Tegomin", sans-serif;
     border: solid black;
 }
 .HF, .body{
