@@ -40,6 +40,7 @@ nav a:hover{
 img{
     width:25%;
 }
+
 p{
     
     padding: 2px;
@@ -148,4 +149,65 @@ h3{
     width:100%;
     text-align: center;
     
+}
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid Blue;
+    box-shadow: 0 0 40px 0 blue;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: Blue;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1em;
+    color: black;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    -webkit-apperance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    
+    width: 100%;
+    max-width: 20rem;
+    background-color:#d2fdff;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    
+}
+form input.submitBtn {
+border: solid black;
+background-color: blue;
+color: white;
+border-radius: 1rem;
+padding: .75rem 1.5rem;
+margin: 0 0 2rem 2%;
+width: 96%;
+max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+
+}
+textarea {
+    height: 5rem;
+    padding-top: 1rem;
+    background-color:#d2fdff;
 }
