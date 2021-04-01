@@ -15,29 +15,81 @@
 </head>
 <body>
     <header>
+        
         <picture>
             <img src="images/icon.png" alt= "Heber Chamber Logo">
         </picture>
+        <section class="headings">
         <h1> Heber Chamber </h1>
         <div class="motto"> Adventrue at its finest</div>
+    </section>
+        
     </header>
+    <br>
     <nav>
         <ul>
-        <li><a href=home.html >Home</a></li>
+        <li><a href=home.html>Home</a></li>
         <li><a href=heber.html>Heber</a></li>
-        <li><a href=join.html>Join</a></li>
+        <li><a href=join.html class="active">Join</a></li>
         <li><a href=directory.html>Directory</a></li> 
-        <li><a href=contact.html class="active">Contact</a></li>
+        <li><a href=contact.html>Contact</a></li>
         </ul>
     </nav>
     <main>
-       
+        
+        <div class="hero">
+            <picture>
+                <source media="(max-width:500px)" srcset="images/heber.jpg" />
+                <source media="(max-width:800px)" srcset="images/heber.jpg" />
+                <source media="(min-width:801px)" srcset="images/heber.jpg" />
+                <img src="images/heber.jpg" alt="lake mountain" />
+              </picture>
+            </div>
+            
+            <h1>Contact Us</h1>
+            <h2>Heber Chamber</h2>
+            <p>Phone: (555(555-5555<br><br>
+            Adresss: 123 Main St. Heber UT</p><br>
+            <h2>Board of Directors</h2>
+            <p>Chair: <br>Richard Estes<br>
+                (555)555-5555 <br> <br>
+            Vice Presidnet:<br> Richard Estes<br> (555)555-5555 <br><br>
+            Secratary: <br>
+            Richard Estes <br>
+            (555)555-5555 <br><br>
+            Member: <br>
+            Richard Estes <br>
+            (555)555-5555 <br><br>
+        </p>
+            <form method ="get" action= "thankyou.html">
+        <fieldset>
+            <legend>Contact Us </legend>
+                <label class="top">First Name* <input type ="text" name="fname" required></label>
+                <label class="top">Last Name* <input type ="text" name="lname" required></label>
+                <label class="top">Email* <input type ="email" name="email" placeholder ="someone@gmail.com" required></label>
+                <label class="top">Cell Phone <input type ="tel" name="phone" placeholder="(555)555-5555" ></label>
+              
+                    
+                <label for="comments" class="top">Comments </label>
+                <textarea class="top" id="comments" rows="5" cols="50"></textarea>
+            </fieldset>
+         
+    
+        <input type= "submit" value="Join Now" class="submitBtn" >
+    
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57727.050405114824!2d-111.43215690667277!3d40.49949790688298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874df591acdaac11%3A0x72295629e1a2560!2sHeber%20City%2C%20UT%2084032!5e0!3m2!1sen!2sus!4v1617299693630!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        
              
        
 </body>     
             
          
     </main>
+    <br>
     <footer>
         &copy; 2021 | Richard A. Estes | Utah |  
     </footer>
@@ -46,3 +98,4 @@
 
 
 </html>
+
