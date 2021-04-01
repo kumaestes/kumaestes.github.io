@@ -6,7 +6,6 @@ nav {
     border-radius:10px;
     box-shadow: 0 0 40px 0 #d2fdff;
     text-align:center;
-    border-radius: 10px;
     border: solid black;
     
 }
@@ -31,7 +30,7 @@ nav ul li a{
 nav a:hover{
     background-color:blue;
     color:white;
-    
+    border-radius:10px;
 }
 
 
@@ -212,6 +211,7 @@ margin: 0 0 2rem 2%;
 width: 96%;
 max-width: 20rem;
 }
+
 form label.top input:required {
     border-left: red solid 6px;
 
