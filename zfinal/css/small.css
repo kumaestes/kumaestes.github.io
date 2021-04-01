@@ -36,9 +36,8 @@ nav a:hover{
 
 
 
-
-img{
-    width:25%;
+.hero-pic img{
+    max-width: 100%;
 }
 
 p{
@@ -57,8 +56,11 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+
 header, footer{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius:10px;
     background-color: #0000ff;
     padding: 2px;
@@ -68,6 +70,17 @@ header, footer{
     max-width: 100%;
     font-family: "New Tegomin", sans-serif;
     border: solid black;
+}
+header{
+    padding: 0px 0px 50px 0px;
+}
+.headings{
+    display:flex;
+    flex-direction: column;
+}
+header img{
+    max-width: 80px;
+    
 }
 .HF, .body{
     border: 2px solid black;
@@ -210,4 +223,8 @@ textarea {
     height: 5rem;
     padding-top: 1rem;
     background-color:#d2fdff;
+}
+.motto {
+    color:white;
+    font-size: 28px;
 }

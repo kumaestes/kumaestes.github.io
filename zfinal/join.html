@@ -15,12 +15,15 @@
 </head>
 <body>
     <header>
+        
         <picture>
             <img src="images/icon.png" alt= "Heber Chamber Logo">
         </picture>
+        <section class="headings">
         <h1> Heber Chamber </h1>
         <div class="motto"> Adventrue at its finest</div>
-        <br>
+    </section>
+        
     </header>
     <br>
     <nav>
@@ -33,16 +36,18 @@
         </ul>
     </nav>
     <main>
-        <h1>Join Today</h1>
-        <form method ="get" action= "thankyou.html">
-            
+        
+        <div class="hero">
             <picture>
                 <source media="(max-width:500px)" srcset="images/heber.jpg" />
                 <source media="(max-width:800px)" srcset="images/heber.jpg" />
                 <source media="(min-width:801px)" srcset="images/heber.jpg" />
                 <img src="images/heber.jpg" alt="lake mountain" />
               </picture>
-            
+            </div>
+       
+            <h1>Join Today</h1>
+            <form method ="get" action= "thankyou.html">
         <fieldset>
             <legend>Personal Information </legend>
                 <label class="top">First Name* <input type ="text" name="fname" required></label>
