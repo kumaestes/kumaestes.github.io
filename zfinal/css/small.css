@@ -238,9 +238,10 @@ textarea {
     box-shadow: 5px 5px 5px black;
 }
 .cards h2, .cards h3, .cards h4, .cards p{
-    color:WHite;
+    color:#d2fdff;
     text-align:center;
 }
+
 section {
     background-color: Blue;
     padding:2px;
