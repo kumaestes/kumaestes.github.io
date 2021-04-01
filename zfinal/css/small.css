@@ -38,6 +38,7 @@ nav a:hover{
 
 .hero-pic img{
     max-width: 100%;
+
 }
 
 p{
@@ -65,7 +66,7 @@ header, footer{
     background-color: #0000ff;
     padding: 2px;
     text-align: center;
-    box-shadow: 0 0 40px 0 white;
+    box-shadow: 0 0 40px 0 blue;
     color: white;
     max-width: 100%;
     font-family: "New Tegomin", sans-serif;
@@ -227,4 +228,27 @@ textarea {
 .motto {
     color:white;
     font-size: 28px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.cards img {
+    box-shadow: 5px 5px 5px black;
+}
+.cards h2, .cards h3, .cards h4, .cards p{
+    color:WHite;
+    text-align:center;
+}
+section {
+    background-color: Blue;
+    padding:2px;
+    box-shadow: Blue;
+    margin: 4px;
+    text-align: center;
+    
+}
+section p {
+    font-size: 16px;
 }
