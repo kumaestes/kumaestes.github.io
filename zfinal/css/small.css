@@ -1,27 +1,35 @@
-.navigation{
-    list-style: none;
-    padding:0;
+nav {
+    max-width:100%;
+    background-color:#d2fdff;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0 0 40px 0 #d2fdff;
+    text-align:center;
+    border: solid black;
+    
 }
-.navigation li:first-child{
+nav ul{
+    
+    list-style-type: none;
+    margin: -20;
+    overflow: hidden;
+    
+    
+    
+}
+nav ul li a{
     display: block;
+    color: black;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: .95rem;
+    
 }
-.navigation li {
-    display: none;
-}
-.navigation a{
-    display:block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration:none;
-    color:black;
-    font-weight: 700;
-}
-.navigation a:hover{
-color: white;
-background-color: #008080;
-}
-.responsive li {
-    display: block;
+nav a:hover{
+    background-color:blue;
+    color:white;
+    border-radius:10px;
 }
 
 
@@ -29,7 +37,7 @@ background-color: #008080;
 
 .hero-pic img{
     max-width: 100%;
-
+    position:relative;
 }
 
 p{
@@ -244,4 +252,23 @@ section {
 }
 section p {
     font-size: 16px;
+}
+.social{
+    text-align: right;
+    
+}
+table{
+    display: none;
+}
+.forecast td, .forcast th{
+border: 2px solid Blue;
+padding: 8px;
+background-color:#d2fdff;
+text-align: center;
+color: black;
+}
+.forecast-table{
+    width: 100%;
+    padding-bottom: 50px;
+    box-shadow: 0  0 60px 0 blue;
 }

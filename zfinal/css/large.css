@@ -6,5 +6,23 @@
         grid-template-columns: 1fr 1fr 1fr;
         
     }
+    .summary{
+        display: block;
+        position: absolute;
+        top: 400px;
+        right:60px;
+        padding: 10px;
+        background-color: #d2fdff;
+        opacity: .7;
+        color: blue;
+        border-radius:10px;
+    }
+    table{
+        display: table;
+        
+    }
+    .forecast {
+        display: block;
+    }
     
 }
