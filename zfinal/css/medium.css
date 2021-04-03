@@ -1,12 +1,16 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 576px) {
     nav ul {
         display: flex;
+    
     }
     nav ul li{
         flex: 1 1 100%;
     }
+    
+
     .navigation {
-		display: flex;
+        display: flex;
+        
 	}
 	.navigation li {
 		display: block; 
@@ -21,18 +25,22 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+    
     }
     .summary{
         display: block;
         position: absolute;
-        top: 30px;
-        right:60px;
-        padding: 10px;
+        top: 335px;
+        right:10px;
+        
         background-color: #d2fdff;
         opacity: .7;
         color: blue;
         border-radius:10px;
+        
+    }
+    .summary p{
+        font-size: 12px;
     }
     table{
         display: table;

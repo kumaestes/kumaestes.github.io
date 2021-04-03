@@ -91,7 +91,7 @@ header, footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     background-color: #0000ff;
     padding: 5px 0;
     margin: 30px 0 40px 0;
@@ -313,13 +313,15 @@ color: black;
     background-color: #d2fdff;
     
     
+    
 }
 .article2 {
     box-shadow: 0 0 40px 0 blue;
     padding: 1.5rem;
     border-radius:10px;
-    margin:  20px 500px 00px 500px;
+    margin:  25px;
     background-color: white;
+    max-width: 35%;
 }
 .trout{
         box-shadow:0 0 40px 0 black;
@@ -367,4 +369,9 @@ color: black;
 .map{
     float: left;
     padding-right:15px;
+}
+.summary{
+    background-color:#d2fdff ;
+    border-radius: 10px;
+    margin: 25px;
 }

@@ -3,24 +3,20 @@
     {
       "name": "Heber Valley Railroad",
       "Phone": "435-654-5601",
-      "length": 14,
-      "order": 1,
       "website": "https://www.hebervalleyrr.org/",
-      "imageurl": "images/hebervr.jpg"
+      "imageurl":  "images/hebervr.jpg"
+     
     },
+ 
     {
       "name": "Fish Heads Fly Shop",
       "Phone": "435-657-2010",
-      "length": 30,
-      "order": 2,
       "website": "https://fishheadsflyshop.com/",
       "imageurl": "images/fishheads.jpg"
     },
     {
       "name": "Dairy Keen",
       "Phone": "435-654-5336",
-      "length": 6,
-      "order": 3,
       "website": "https://www.dairykeen.com/",
       "imageurl": "images/dairykeen.jpg"
     },
@@ -28,32 +24,24 @@
     {
       "name": "Uinta Recreation",
       "Phone": "801-940-5603",
-      "length": 3,
-      "order": 5,
       "website": "https://www.uintarecreation.com/",
       "imageurl": "images/heber2.jpg"
     },
     {
       "name": "Deer Creek Island Resort",
       "Phone": "12 November 1838",
-      "length": 17,
-      "order": 6,
       "website": "https://deercreekislandresort.com/",
       "imageurl": "images/heber3.jpg"
     },
     {
       "name": "Sportsmans Warehouse.",
       "Phone": "435-654-5600",
-      "length": 23,
-      "order": 7,
       "website": "https://www.sportsmans.com/",
       "imageurl": "images/5heber.jpg"
     },
     {
       "name": "Stonybrook Fly Fishing",
       "Phone": "435-671-0205",
-      "length": 6,
-      "order": 8,
       "website": "http://www.stonybrookflyfishing.com/",
       "imageurl": "images/4heber.jpg"
     }
