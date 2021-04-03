@@ -11,7 +11,7 @@ nav {
 nav ul{
     
     list-style-type: none;
-    margin: -20;
+    margin: 50px;
     overflow: hidden;
     
     
@@ -278,7 +278,7 @@ textarea {
 section {
     background-color: Blue;
     padding:2px;
-    box-shadow: Blue;
+    box-shadow:0 0 40px 0 Blue;
     margin: 4px;
     text-align: center;
     
