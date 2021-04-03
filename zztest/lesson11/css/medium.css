@@ -1,0 +1,55 @@
+@media only screen and (min-width: 35em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    main{
+        max-width: 30rem;
+    }
+    footer{
+        max-width: 40rem;
+    }
+    .summary{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right:60px;
+        padding: 10px;
+        background-color: white;
+        opacity: .8;
+        color: teal;
+        
+    }
+    table{
+        display: table;
+        
+    }
+    .forecast {
+        display: block;
+        
+    }
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    nav ul {margin-left: 2%;}
+        nav ul li {width: auto;}
+        nav ul li:first-child a {border-left: 1px solid #777;}
+        nav ul li:last-child a {border-right: 1px solid #777;}
+        nav ul li a{padding: .5rem 1rem;}
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+}

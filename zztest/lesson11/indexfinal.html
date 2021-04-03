@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 101 Preston Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href= "css/normalize.css"/>
+    <link href= "css/small.css" rel= "stylesheet"/>
+    <link href= "css/medium.css" rel= "stylesheet"/>
+    <link href= "css/large.css" rel= "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/icon.png" alt= "HCC logo">
+        </picture>
+        <section class="headings">
+        <h1>Weather 101</h1>
+        <div class= "motto">We Know Weather</div>
+    </section>
+    </header>
+    <script src="js/ham.js"></script>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="indexfinal.html" class="active">Home</a></li>
+            <li><a href="preston-100.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+        
+    <main>
+        
+            <picture>
+              <source media="(max-width:500px)" srcset="images/settingsun.jpg" />
+              <source media="(max-width:800px)" srcset="images/settingsun.jpg" />
+              <source media="(min-width:801px)" srcset="images/settingsun.jpg" />
+              <img src="images/settingsun.jpg" alt="sunset" />
+            </picture>
+          
+          <div class="cards"></div>
+          
+         
+          <div class= "contact">
+            <h6>Contact Info</h6>
+            
+    
+            
+            <img class= "map" src="images/prestonmap.png" alt="prestonmap" width=400> 
+            <p>Weather 101</p>
+            <p>100 N State St.</p>
+            <p>Preston, ID 83263</p>
+            <br>
+            <p>999-999-9999</p>
+            <p>info@weather101.com</p>
+        
+            <div class="social">
+                <a href="https://www.facebook.com/" target="blank"><img src="images/facebook.png" alt="Facebook icon" width="40"></a>
+                <a href="https://www.youtube.com/" target="blank"><img src="images/youtube.png" alt="Youtube icon" width="40"></a>
+                <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.jpg" alt="Instagram icon" width="40"></a></div>
+</div>
+        </main>
+  
+           
+            
+            
+        
+        
+        
+            
+           
+        
+
+        
+    <script src="js/imagehandling.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="js/home.js"></script>
+    <footer>
+       <div class="date">
+        &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | 
+         <a href="https://www.byui.edu/online" id="byuilink">BYUI Online Learning</a>| 
+       
+        <div><span id="currentDate"></span></div>
+       
+    
+   </div>
+</footer>
+    <script src="js/date.js"></script>
+    
+</body>
+</html>

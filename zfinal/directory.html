@@ -25,37 +25,44 @@
         </picture>
         <section class="headings">
         <h1> Heber Chamber </h1>
-        <div class="motto"> Adventrue at its finest</div>
+        <div class="motto"> Adventure at its FSinest</div>
     </section>
         
     </header>
     <script src="js/ham.js"></script>
-    <br>
+    
     <nav>
-        <ul>
-        <li><a href=home.html>Home</a></li>
-        <li><a href=heber.html>Heber</a></li>
-        <li><a href=join.html class="active">Join</a></li>
-        <li><a href=directory.html>Directory</a></li> 
-        <li><a href=contact.html>Contact</a></li>
+        <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heber.html">Heber</a></li>
+        <li><a href="join.html" >Join</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li> 
+        <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
         
-        <div class="hero">
-            <picture>
+        <div class="hero-summary">
+            <picture class="sun">
                 <source media="(max-width:500px)" srcset="images/heber.jpg" />
                 <source media="(max-width:800px)" srcset="images/heber.jpg" />
                 <source media="(min-width:801px)" srcset="images/heber.jpg" />
-                <img src="images/heber.jpg" alt="lake mountain" />
+                <img class="sun" src="images/heber.jpg" alt="lake mountain" />
               </picture>
             </div>
-    <main>
+    
         <div class="cards"></div>
     </main>
+
+    
     <footer>
-        Richard Estes | BYU-Idaho | WDD 230
-    </footer>
+        <div class="date">
+            &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | <span id="currentDate"></span>
+    </div> 
+    </footer> 
     <script src="js/directory.js"></script>
+   
+    
 </body>
 </html>

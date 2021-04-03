@@ -1,0 +1,232 @@
+header, footer{
+    background-color:blue;
+    color:#FFFFFF;
+    padding: 5px 0; 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: "Roboto", sans-serif;
+  
+}
+header h1 {
+    color:white;
+    background-color: blue;
+    font-family: 'New Tegomin', sans-serif;
+
+}
+.motto {
+color: white;
+}
+header section{
+    background-color: blue;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    
+}
+.headings{
+    display: flex;
+    flex-direction:column;
+   
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}    
+nav{
+    margin:0 auto;
+    width: 100%;
+    background-color: #ffffff; 
+    
+      
+}
+.navigation{
+    list-style: none;
+    padding:0;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation a{
+    display:block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration:none;
+    color:black;
+    font-weight: 700;
+}
+.navigation a:hover{
+color: white;
+background-color: blue;
+}
+.responsive li {
+    display: block;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+h4, h5, h6{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
+/*.cbox{
+    border: 1px dotted black;
+    padding: 20px;
+    background-color: #e3e3e3;
+    width: 100%;
+    text-align: left;
+    color: black;
+}*/
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: blue;
+    
+}
+header, nav, main, footer {
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+
+}
+#byuilink{
+    color: white;
+}
+footer{
+    text-align:center;
+}
+.hero-image{
+    position: relative;
+    width:100%;
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    
+}
+.sunset{
+    position: relative;
+    width: 100%;
+}
+.hero-summary{
+    
+    position:relative;
+    
+}
+
+table{
+    display: none;
+}
+.forecast td, .forcast th{
+border: 2px solid blue;
+padding: 8px;
+background-color:#d2fdff;
+text-align: center;
+color: black;
+}
+.forecast-table{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.article {
+    border: 2px solid blue;
+    padding: 1.5rem;
+    background-color: #d2fdff;
+    
+}
+
+.trout{
+    width: 40%;
+    border-radius: 25px;
+    float: right;
+    padding: 5px;
+
+}
+.trout2{
+    width: 40%;
+    border-radius: 25px;
+    float: left;
+    padding: 5px;
+
+}
+.map{
+    float: left;
+    padding-right:15px;
+}
+.active{
+    background-color: #d2fdff;
+    color: black;
+
+    
+}
+.social{
+    text-align: right;
+    
+}
+.contact{
+    border: 2px solid blue;
+    padding: 1.5rem;
+    margin-top: 10px;
+    background-color:#d2fdff;
+    
+}
+.sun{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.gallery figure{
+    display: grid;
+    text-align:center;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px;
+    text-align: center;
+    Justify-items: center;
+    color: black;
+    
+    
+}
+.gallery img{
+    width: 100%;
+    
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+}
+section {
+    background-color: #d2fdff;
+    padding:10px;
+    color: blue;
+    margin: 4px;
+    border: 5px solid blue;
+    
+    
+}
+section p {
+    font-size: 16px;
+    color: black;
+    
+}

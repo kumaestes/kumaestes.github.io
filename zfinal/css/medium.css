@@ -5,6 +5,19 @@
     nav ul li{
         flex: 1 1 100%;
     }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -13,7 +26,7 @@
     .summary{
         display: block;
         position: absolute;
-        top: 400px;
+        top: 30px;
         right:60px;
         padding: 10px;
         background-color: #d2fdff;

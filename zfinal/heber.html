@@ -20,92 +20,137 @@
         </picture>
         <section class="headings">
         <h1> Heber Chamber </h1>
-        <div class="motto"> Adventrue at its finest</div>
+        <div class="motto"> Adventure at its Finest</div>
     </section>
     </header>
+    <script src="js/ham.js"></script>
     <nav>
-        <script src="js/ham.js"></script>
-        <ul>
-        <li><a href=home.html>Home</a></li>
-        <li><a href=heber.html class="active">Heber</a></li>
-        <li><a href=join.html>Join</a></li>
-        <li><a href=directory.html>Directory</a></li> 
-        <li><a href=contact.html>Contact</a></li>
+        
+        <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heber.html" class="active">Heber</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li> 
+        <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <div class="hero">
-            <picture>
+        <div class="hero-summary">
+            <picture class= "sun">
+            
                 <source media="(max-width:500px)" srcset="images/heber.jpg" />
                 <source media="(max-width:800px)" srcset="images/heber.jpg" />
                 <source media="(min-width:801px)" srcset="images/heber.jpg" />
-                <img src="images/heber.jpg" alt="lake mountain" />
+                <img class="sun" src="images/heber.jpg" alt="lake mountain" />
               </picture>
-              <section class="summary">
-                <h3>Heber, Utah Weather </h3>
-                <p>Currently: <span id="currenttemp"></span>&deg; F <br><br> Sky: <span id="now"></span></p>
-                <p>High: <span id="high"></span>&deg; F</p>
-                <p>Humidity: <span id="humidity"></span>%</p>
-               
+             
 
-                <script src="js/forecast.js"></script>
-                <script src="js/windchill.js"></script>
             </div>
-            <div class= "forecast">
-                <h3>3-day forecast</h3>
+            <div class= "article2">
+                <h5>Heber Market on Main</h5>
+                    <img class="trout3" src="images/hebermarket.png" alt= "sun rays">
+                    <h7>VENDOR REGISTRATION</h7><br><br>
+                        <p></p> Online vendor registration is coming soon.<br><br>  Come back here to complete your vendor registration.
+                        <br><br>
+                        
+                        <h7>DATES</h7><br><br>
+                        Thursday, 7/9/2020  -  Thursday, 8/20/2020<br><br>
+                        Thursdays from 6 p.m. until 9 p.m.<br><br>
+                        <h7>LOCATION</h7><br><br>
+                        Main Street Park
+                        250 S Main Street
+                        Heber City, UT 84032     <br><br>   (https://www.heberut.gov/CivicAlerts.aspx?AID=115)</p>
+                    </div>
+            <div class= "article">
+                <h5>History of Heber</h5>
+                    <img class="trout" src="images/9heber.jpg" alt= "canyon">
+                    <p>
+                        DISCOVERY<br><br>
+                        The Heber Valley / Wasatch County area was originally discovered by Native Americans; the Timpanogos Utes being the most
+                         recent. The area was used primarily as a summer hunting ground and as an area where materials for hunting tools could be
+                          found and produced. "Wasatch" in the Uto-Aztecan language means "mountain pass" or "low pass over high range."
+                        <br><br>
+                        PARADISE LAND<br><br>
+                        On a summer morning in 1857 workers employed at a sawmill in Big Cottonwood Canyon hiked to the summit of the Wasatch 
+                        Range and viewed a high mountain valley to the southeast that had been reputed as a "paradise land." Hearing promising 
+                        reports from the sawmill workers and others, a group of cattlemen left Provo in the Spring of 1858 and drove their herds 
+                        up Provo Canyon to establish ranches in the south end of the valley while others during the spring and summer of 1858 
+                        explored the area with an eye toward future settlement.
+                        <br><br>
+                        FROM LONDON TO HEBER CITY<br><br>
+                        A pioneer party consisting primarily of LDS converts from Great Britain arrived on May 2, 1859. They camped about one
+                         mile north of present Heber City and christened the townsite "London." The London townsite was surveyed in June 1859
+                          by the Utah County Deputy Surveyor, Jesse Fuller. The initial point of Fuller's survey was established at what is now
+                           the north of end of Heber City Main Street. In 1862 Wasatch County was created by the territorial legislature and at
+                            that time the London townsite was renamed Heber City in recognition of the love the LDS settlers from Britain had for
+                             their Mission Leader, Heber C. Kimball. As the largest settlement in the area, Heber City was established as the 
+                             county seat.
+                             <br><br>
+                        TIMELINE<br><br>
+                        October 1858: A road is completed up "Provo Kanyon" at LDS Church President, Brigham Young's request; a bridge was constructed to cross the Provo River at the mouth of the canyon.
+                        <br><br>
+                        July 1859: Settlers build their houses closely together to form a fort (Fort Heber) located between First West and Third West and Second North and Fifth North for protection from Native Americans.
+                        <br><br>
+                        1862: Issac O. Wall carries mail on horseback to the community during summer months. During spring the Provo River is too high to cross and Mr. Wall extends a cable from trees on either side of the river to transfer mail pouches with the Provo mail carrier.
+                        <br><br>
+                        1864 and 1865; Homes and community buildings are built from native Red Sandstone.
+                        <br><br>
+                        Spring 1866: Heber City's population grows as people from surrounding settlements move together for protection from Native Americans during the Black Hawk War.
+                        <br><br>
+                        March 23, 1889: The Wasatch Wave under the ownership of William H. Buys publishes its first edition.
+                        <br><br>
+                        1889: Heber City incorporates as a township.
+                        <br><br>
+                        Friday, September 29, 1899: Rio Grande Western Railroad completes connection from Provo to Heber City with seven stations on the line.
+                        <br><br>
+                        November 1907: Heber City's first public library is established in two rooms above the Heber Mercantile Building.
+                        <br><br>
+                        Fall 1909: Construction of the Heber Light and Power Plant north of town is completed and residents of Heber City, Midway, and Charleston enjoy electric power for the first time.
+                        <br><br>
+                        1900: Charles and Lavisa Alexander start their telephone company servicing 12 telephones; the Mountain States Telephone and Telegraph Co. purchases the Alexander's company in 1911; 170 telephones had been installed by this time.
+                        <br><br>
+                        1904: Heber City's first bank, The Bank of Heber City, is constructed at the corner of Main and Center Streets.
+                        <br><br>
+                        1918: The Ideal Movie Theater opens.
+                        <br><br>
+                        Winter 1937: A fire severely damages the Bank Building at Main and Center Street.
+                        <br><br>
+                        1981: Heber City resident, Bart the Bear, trained by Doug Seus stars in his first move, "Windwalker." Bart goes on to star in numerous movies including "The Edge" and "Legends of the Fall."
+                        <br><br>
+                        Winter 2002: The biathlon, cross-country skiing, and nordic events of the 2002 Winter Olympic Games are held at the Wasatch Mountain State Park, Soldier Hollow Venue.
+                        <br><br>
+                        April 3, 2002: CNN/Money publishes article entitled "Best Vacations: Heber Valley, Utah."
+                        <br><br>
+                        September 22, 2005: CNN/Money lists Heber City as a fast growing micropolis at 15.1% growth. (https://www.ci.heber.ut.us/229/History)</p>
+                    </div>
 
-            
-            <table class="forecast-table">
-                
-                
-                    <tr>
-                        <th id="day1">Day1</th>
-                        <th id="day2">Day2</th>
-                        <th id="day3">Day3</th>
-                        <th id="day4">Day4</th>
-                        <th id="day5">Day5</th>
-                       
-                        
-                      
-                    </tr>
-                    <tr>
-                        
-                        <td><img id="icon1"  src= "#" alt="weather icon"></td>
-                        <td><img id="icon2"  src= "#" alt="weather icon"></td>
-                        <td><img id="icon3"  src= "#" alt="weather icon"></td>
-                        <td><img id="icon4"  src= "#" alt="weather icon"></td>
-                        <td><img id="icon5"  src= "#" alt="weather icon"></td>
-                        
-                        
-                      
-                    </tr>
-                    <tr>
-                        <td><span id="temp1"></span>&deg; F</td>
-                        <td><span id="temp2"></span>&deg; F</td>
-                        <td><span id="temp3"></span>&deg; F</td>
-                        <td><span id="temp4"></span>&deg; F</td>
-                        <td><span id="temp5"></span>&deg; F</td>
-                        
-                       
-                       
-                    </tr> 
-                </table>
-    
+                    <div class= "article">
+                        <h5>Heber Demographics</h5>
+                <img class="trout2" src="images/demographics.jpg" alt= "people">
+                <p>Population in 2019: 17,082 (99% urban, 1% rural).<br><br>
+                     Population change since 2000: +134.3% <br><br>Males: 8,791   (51.5%) Females: 8,291   (48.5%) <br><br>
+                      Median resident age: 27.9 years 
+                      Utah median age: 31.2 years <br><br>
+                       Estimated median household income in 2019: $79,001 (it was $45,394 in 2000) Heber: $79,001 UT: $75,780 <br><br>
+                       Estimated per capita income in 2019: $29,433 (it was $17,358 in 2000)
+                       <br><br>
+                    
+                     (http://www.city-data.com/city/Heber-Utah.html)</p>
             </div>
-        <div class="social">
-            <a href="https://www.facebook.com/" target="blank"><img src="images/facebook.png" alt="Facebook icon" width="40"></a>
-            <a href="https://www.youtube.com/" target="blank"><img src="images/youtube.png" alt="Youtube icon" width="40"></a>
-            <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.jpg" alt="Instagram icon" width="40"></a></div>  
-       
-</body>     
-            
-         
+           
+
+                    
+              
     </main>
+ 
     <footer>
-        &copy; 2021 | Richard A. Estes | Utah |  
+        <div class="date">
+            &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | <span id="currentDate"></span>
+    </div>
     </footer>
     
-
-
+    <script src="js/date.js"></script>
+</body>
 
 </html>

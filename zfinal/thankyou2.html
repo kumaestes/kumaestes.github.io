@@ -15,35 +15,38 @@
 </head>
 <body>
     <header>
+        
         <picture>
             <img src="images/icon.png" alt= "Heber Chamber Logo">
         </picture>
+        <section class="headings">
         <h1> Heber Chamber </h1>
-        <div class="motto"> Adventrue at its finest</div>
+        <div class="motto"> Adventure at its Finest</div>
+    </section>
+        
     </header>
     <script src="js/ham.js"></script>
     <nav>
-        <ul>
-        <li><a href=home.html>Home</a></li>
-        <li><a href=heber.html>Heber</a></li>
-        <li><a href=join.html>Join</a></li>
-        <li><a href=directory.html>Directory</a></li> 
-        <li><a href=contact.html>Contact</a></li>
+        <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heber.html">Heber</a></li>
+        <li><a href="join.html" >Join</a></li>
+        <li><a href="directory.html">Directory</a></li> 
+        <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
     </nav>
     <main>
-       
-             
-       
-</body>     
-          <p>Thanks for your contacting us</p>  
-         
+        
+      
     </main>
     <footer>
-        &copy; 2021 | Richard A. Estes | Utah |  
+        <div class="date">
+            &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | <span id="currentDate"></span>
+    </div>
     </footer>
     
-
-
+    <script src="js/date.js"></script>
+</body>
 
 </html>

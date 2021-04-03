@@ -20,13 +20,13 @@
         </picture>
         <section class="headings">
         <h1> Heber Chamber </h1>
-        <div class="motto"> Adventrue at its finest</div>
+        <div class="motto"> Adventure at its Finest</div>
     </section>
     </header>
     <script src="js/ham.js"></script>
     <nav>
         <ul class="navigation">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>    
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>   
         <li><a href="home.html" class="active">Home</a></li>
         <li><a href="heber.html">Heber</a></li>
         <li><a href="join.html">Join</a></li>
@@ -36,17 +36,147 @@
     </nav>
     <main>
        
-             
-       
-</body>     
+        <div class="hero-summary">
+            <picture class="sun">
+                <source media="(max-width:500px)" srcset="images/heber.jpg" />
+                <source media="(max-width:800px)" srcset="images/heber.jpg" />
+                <source media="(min-width:801px)" srcset="images/heber.jpg" />
+                <img class="sun" src="images/heber.jpg" alt="lake mountain" />
+              </picture>
+              <section class="summary">
+                <h3>Heber, Utah Weather </h3>
+                <p>Currently: <span id="currenttemp"></span>&deg; F <br><br> Sky: <span id="now"></span></p>
+                <p>High: <span id="high"></span>&deg; F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+               
+
+                <script src="js/forecast.js"></script>
+                
+            </div>
+            <div class= "forecast">
+                <h3>5-day forecast</h3>
+
+            
+            <table class="forecast-table">
+                
+                
+                    <tr>
+                        <th id="day1">Day1</th>
+                        <th id="day2">Day2</th>
+                        <th id="day3">Day3</th>
+                        <th id="day4">Day4</th>
+                        <th id="day5">Day5</th>
+                       
+                        
+                      
+                    </tr>
+                    <tr>
+                        
+                        <td><img id="icon1"  src= "#" alt="weather icon"></td>
+                        <td><img id="icon2"  src= "#" alt="weather icon"></td>
+                        <td><img id="icon3"  src= "#" alt="weather icon"></td>
+                        <td><img id="icon4"  src= "#" alt="weather icon"></td>
+                        <td><img id="icon5"  src= "#" alt="weather icon"></td>
+                        
+                        
+                      
+                    </tr>
+                    <tr>
+                        <td><span id="temp1"></span>&deg; F</td>
+                        <td><span id="temp2"></span>&deg; F</td>
+                        <td><span id="temp3"></span>&deg; F</td>
+                        <td><span id="temp4"></span>&deg; F</td>
+                        <td><span id="temp5"></span>&deg; F</td>
+                        
+                       
+                       
+                    </tr> 
+                </table> 
+            </div>    
+            <div class= "article">
+                <h5>Come see all that Heber has to offer!</h5>
+                    <img class="trout" src="images/1heber.jpg" alt= "sun rays">
+                    <p>Heber City was founded by English immigrants who were members of The Church of Jesus Christ of Latter-day Saints in the late 1850s, and is named after the
+                         Mormon apostle Heber C. Kimball. It is the county seat of Wasatch County. The original Heber City town square is located on the west side
+                          of Main Street between Center Street and 100 North and currently houses city offices as well as the historic Wasatch Stake Tabernacle 
+                          and Heber Amusement Hall. The city was largely pastoral, focusing largely on dairy farms and cattle ranching, and has since become a
+                           bedroom community for Orem, Provo, Park City and Salt Lake City.
+                        <br><br>
+                        Heber City is currently governed by Mayor Kelleen Potter along with City Council Members.
+                        <br><br>
+                        Within the city limits are Heber Valley, Old Mill, Daniels Canyon and J.R. Smith Elementary Schools, Timpanogos Middle School, 
+                        Rocky Mountain Middle School, Wasatch High School, and Wasatch Alternative High School. An additional school in the Heber Valley
+                         is Midway Elementary School. All of these schools are part of the Wasatch County School District. Utah Valley University maintains 
+                         a satellite campus just north of Heber City along the US-40 corridor.
+                         <br><br>
+                        Heber City contains five LDS stakes, as well as congregations of Southern Baptists, Catholics as part of the Diocese of Salt Lake City,
+                         and Jehovah's Witnesses. (https://idahohighcountry.org/)</p>
+                    </div>
+
+                    <div class= "article">
+                        <h5>Come experiance the beautiful night sky!</h5>
+                <img class="trout2" src="images/3heber.jpg" alt= "night sky">
+                <p>The night sky has inspired us for generations. Nighttime views and environments are among the critical park features the
+                     National Park Service (NPS) protects. Night sky protection enhances qualities of solitude and undeveloped wilderness 
+                     character that animals depend on for survival, park visitors seek for connections, and many cultural-historical parks 
+                     require for preservation. In this regard, the NPS recognizes a naturally dark night sky as more than a scenic canvas; it 
+                     is part of a complex ecosystem that supports both natural and cultural resources. (https://www.nps.gov/subjects/nightskies/index.htm)</p>
+            </div>
+            <div class= "article">
+                <h5>Try fly fishing in Heber.</h5>
+                    <img class="trout" src="images/7heber.jpg" alt= "fly fishing">
+                    <p>Fly fishing is an angling method that uses a light-weight lure—called an artificial fly—to catch fish. The fly is cast
+                         using a fly rod, reel, and specialized weighted line. The light weight requires casting techniques significantly different 
+                         from other forms of casting. The flies may resemble natural invertebrates, baitfish, or other food organisms.
+<br><br>
+                        Fly fishing can be done in fresh or saltwater. North Americans usually distinguish freshwater fishing between cold-water
+                         species (trout, salmon, steelhead) and warm-water species, notably bass. In Britain, where natural water temperatures 
+                         vary less, the distinction is between game fishing for trout and salmon versus coarse fishing for other species. 
+                         Techniques for fly fishing differ with habitat (lakes and ponds, small streams, large rivers, bays and estuaries, 
+                         and open ocean.) (https://en.wikipedia.org/wiki/Fly_fishing)</p>
+                    </div>
+
+                    <div class= "article">
+                        <h5>Heber has an abundace of rainbow trout!</h5>
+                <img class="trout2" src="images/6heber.jpg" alt= "rainbow trout">
+                <p>Rainbow trout are coldwater fish that have long been associated with clear, healthy mountain streams and lakes in North America.
+                     Because of their ability to thrive in hatcheries, rainbow trout have been introduced into much of the United States and now 
+                     inhabit many streams and lakes throughout the country. The popularity of rainbow trout among anglers has placed it among the 
+                     top five sport fishes in North America, and it is considered by many to be the most important game fish west of the Rocky
+                      Mountains.
+                    <br>
+                    <br>
+                    However, reduction of good quality trout habitat due to streambank and upland soil erosion, loss of riverside vegetation, water
+                     diversion, logging and mining activities, and pollution from municipal development and agriculture have significantly reduced 
+                     the distribution and abundance of rainbow trout. In addition, construction of dams, road crossings, and other structures
+                      impede the ability of rainbow trout to migrate upstream and downstream, which is critical to successful completion of their 
+                      life cycles. Consequently, nine different populations of steelhead (sea-run rainbow trout) have been added to the federal 
+                      endangered species list. (https://www.fws.gov/southeast/wildlife/fishes/rainbow-trout/)</p>
+            </div>
+            <div class= "contact">
+                <h6>Contact Info</h6>
+                <img class= "map" src="images/hebermap.png" alt="Heber map" width=400> 
+                <p>Heber Chamber of Commerce</p>
+                <p>123 Main St.</p>
+                <p>Heber, UT 84032</p>
+                <p>555-555-555</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="blank"><img src="images/facebook.png" alt="Facebook icon" width="40"></a>
+                    <a href="https://www.youtube.com/" target="blank"><img src="images/youtube.png" alt="Youtube icon" width="40"></a>
+                    <a href="https://www.instagram.com/" target="blank"><img src="images/instagram.jpg" alt="Instagram icon" width="40"></a></div> 
+   
             
          
     </main>
     <footer>
-        &copy; 2021 | Richard A. Estes | Utah |  
+        <div class="date">
+            &copy; <span id="currentyear"></span> | Richard A. Estes | Utah | <span id="currentDate"></span>
+    </div>
     </footer>
     
-
+    <script src="js/date.js"></script>
+    
+</body> 
 
 
 </html>
