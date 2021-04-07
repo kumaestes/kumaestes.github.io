@@ -151,12 +151,7 @@ h4, h5, h6{
     color:blue;
     font-family: "New Tegomin", sans-serif;
 }
-h7{
-font-size: 20px;
-text-align:Center;
-color:red;
-font-family: "New Tegomin", sans-serif;
-}
+
 .primary, .secondary, .accent1, .accent2 {
     padding:15px;
     border-radius:10px;
