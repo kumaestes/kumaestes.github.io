@@ -1,0 +1,56 @@
+h1, h2{
+font-family: 'Lora', serif;
+
+}
+
+body{
+font-family:'Helvetica', Arial, sans-serif;
+}
+header{
+    background-color: #6459ED;
+    text-align: right;
+    padding:  15px;
+    
+
+}
+main{
+    background-color: #FAEBD7;
+    padding:100px;
+    grid-template-columns: 1fr;
+}
+.post-date{
+    color:gray;
+}
+.post-content{
+    color: black;
+    
+    
+}
+article{
+    background-color: white;
+    box-shadow: 5px 5px lightgray;
+    padding: 25px 50px 75px 75px;
+    margin: 0 0 40px 0;
+}
+
+
+nav:link, nav:visited{
+    color: #FAEBD7;
+    text-decoration: none;
+}
+nav:active{
+    color: #DEB887;
+}
+nav:hover{
+    color: White;
+}
+a:link, a:visited {
+    color:black;
+    text-decoration:none;
+}
+a:active{
+    color:#DEB887;
+}
+a:hover{
+    color:#6495ED;
+}
