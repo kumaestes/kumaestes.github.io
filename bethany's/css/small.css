@@ -11,7 +11,7 @@ body {
 
 .row {clear: both;}
 
-.column {float: left;}
+.column {float: left; padding: 0 2vw; margin: 0 0 .75rm 0;}
 
 .small-12 {width: 100%;}
 
