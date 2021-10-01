@@ -13,6 +13,13 @@ body {
 
 .column {float: left;}
 
+.small-12 {width: 100%;}
+
+
+
+
+
+
 footer {
     background-color: #9b87b8;
     font-size: 1.2rem;
