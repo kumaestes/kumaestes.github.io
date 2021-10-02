@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+//variables
+$hc: #6459ED;
+$bg: #FAEBD7;
+
+//nesting
+//line 85-91
+
+//mix-ins
+@mixin highlight {
+  color: #000000;
+}
+h1, h2{
+  font-family: 'Lora', serif;
+}
+   
+ul{
+  list-style: none;
+}
+
+body{
+font-family:'Helvetica', Arial, sans-serif; 
+}
+
+header{
+    background-color: $hc;
+    text-align: right;
+    padding:  15px;
+    grid-area: header;  
+}
+
+header a:link{
+  color: $bg;
+} 
+
+header a:visited{
+  color: $bg;
+}
+
+header a:active  {
+  color: $hc;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: underlined;
+}
+
+main{
+    background-color: $tan;
+    padding:15px;
+    grid-area: main;    
+}
+
+img{
+  width: 90%;
+}
+
+.post-date{
+    color:gray;
+}
+
+.post-content{
+    color: black;   
+}
+
+article{
+    background-color: white;
+    box-shadow: 5px 5px lightgray;
+    padding: 25px 50px 75px 75px;
+    margin: 0 0 40px 0;
+}
+
+nav:link, nav:visited{
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+nav:active{
+    color: #DEB887;
+}
+
+a:link, a:visited {
+    @include highlight;
+    text-decoration:none;
+}
+
+a:active{
+    color:#DEB887;
+  &:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+}
+
+
+@media only screen and (min-width: 64em){
+      div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "header main main main"; 
+    }
+    
+}
+
+
